@@ -11,7 +11,7 @@ This project contains an end-to-end (E2E) test using Cypress to verify the funct
 7. Reporting
 
 # Overview
-This project uses Cypress with javascript to perform an automated test of a WebSocket API. The test sends a request to retrieve a list of states and validates the response data. The test also uses a fixture (`states.json`) to provide the WebSocket URL, request data, and expected states for validation.
+This project uses Cypress with JavaScript to perform an automated test of a WebSocket API. The test sends a request to retrieve a list of states and validates the response data. The test also uses a fixture (`states.json`) to provide the WebSocket URL, request data, and expected states for validation.
 
 # Pre-requisites
 Before setting up the project, ensure the following software is installed:
@@ -32,7 +32,7 @@ Before setting up the project, ensure the following software is installed:
 
 3. Open the Project in Visual Studio Code: Once you're inside the project directory, open it in VS Code using the following command:
 
-   code .
+   code.
 
 4. Install Dependencies (if not done yet), using the following command :
  
@@ -58,12 +58,12 @@ After that, you can select and run the test "websocket_states_list.cy.js"
 
 # Test Details
     1. Establishes a WebSocket connection using the URL from the "states.json" fixture.
-    2. Sends a request to retrieve the list of states.
-    3. Validates the response, ensuring it contains the "states_list" property and specific states.
+    2. Send a request to retrieve the list of states.
+    3. Validate the response, ensuring it contains the "states_list" property and specific states.
     4. Closes the WebSocket connection after validation.
 
 # Reporting
-Test report is generated using Mochawesome. After running the tests, you can view detailed reports in the cypress/reports directory.  
+The automation test report is generated using Mochawesome. After running the tests, you can view detailed reports in the cypress/reports directory.  
 
      cypress\reports\html\index.html
 
