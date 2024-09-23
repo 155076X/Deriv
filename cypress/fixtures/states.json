@@ -1,0 +1,12 @@
+{
+    "webSocketUrl": "wss://ws.binaryws.com/websockets/v3?app_id=1089",
+    "requestData": {
+      "states_list": "id",
+      "req_id": 1
+    },
+    "expectedStates": [
+      { "text": "Jawa Barat", "value": "JB" },
+      { "text": "Bali", "value": "BA" }
+    ]
+  }
+  
